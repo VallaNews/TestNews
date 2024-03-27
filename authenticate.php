@@ -3,8 +3,8 @@
 session_start();
 
 // Simulated credentials (replace with your actual authentication logic)
-$valid_username = "user";
-$valid_password = "password";
+$valid_username = "valla";
+$valid_password = "news";
 
 // Check if form is submitted
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
