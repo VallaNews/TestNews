@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <title>Valla News - fejkat knivslagsmål</title>
+  <style>
+    /* Basic CSS for layout */
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background-color: #f9f9f9;
+      /* Slightly brighter color */
+    }
+
+    header,
+    footer {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+      border-bottom: 1px solid #fff;
+      /* White line at the bottom */
+    }
+
+    main {
+      padding: 20px;
+      background-color: #e0e0e0;
+      /* Lighter background color for main */
+      border-bottom: 1px solid #fff;
+      /* White line at the top */
+    }
+
+    .article {
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 20px;
+      overflow: hidden;
+    }
+
+    .article img {
+      width: 100%;
+      /* Full width for the image */
+      height: auto;
+      max-height: 400px;
+      /* Maintain aspect ratio */
+      display: block;
+      margin: 0 auto 20px;
+      object-fit: cover;
+      /* Center image and add margin below */
+      border-radius: 8px;
+      /* Rounded corners for the image */
+    }
+
+    .article h2,
+    .article p {
+      margin: 0;
+      /* Remove default margin */
+    }
+
+    /* Anchor link style */
+    a {
+      color: #333;
+      text-decoration: none;
+    }
+
+    a:hover {
+      color: #666;
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Valla News</h1>
+  </header>
+
+  <main>
+    <div class="article">
+      <img src="Ramseleskolan.jpeg" alt="Main Article Image">
+      <h2>Fejkat knivslagsmål i Ramsele</h2>
+      <p>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed ut libero nec est tristique vestibulum. Duis quis eros
+        sagittis, molestie enim id, mattis nunc. Nam fringilla consectetur ligula, vel aliquet ipsum lobortis ut. Nulla
+        facilisi. Nam et ex id elit mollis elementum. Duis suscipit ante sed purus fermentum, ac varius urna vestibulum.
+        Cras in urna dui. Mauris commodo eros odio, non suscipit ipsum vestibulum ac. Aenean malesuada eros vitae commodo
+        vehicula. Vivamus posuere eros eros, vel ultricies ex pellentesque a. Suspendisse potenti. Mauris varius enim ac
+        erat tempor, a varius purus fringilla.
+      </p>
+      <p>
+        Aliquam nec eros sit amet justo blandit euismod ac eu ipsum. Vivamus lacinia, turpis vitae aliquet iaculis, nulla
+        tortor tincidunt libero, sed cursus nunc arcu vel libero. Nulla facilisi. Nulla condimentum tincidunt ligula vel
+        tincidunt. Fusce quis rhoncus erat. Nunc ut magna eu dolor euismod malesuada. Donec sed felis ipsum. Pellentesque
+        habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque nec dui velit. Duis
+        efficitur turpis vel gravida eleifend. Curabitur consequat elit at dapibus blandit. Mauris in consectetur mi, id
+        ultricies nisl.
+      </p>
+      <p>
+        <a href="index.html">Back to Home</a>
+      </p>
+    </div>
+  </main>
+
+  <footer>
+    <div style="background-color: #333; padding: 20px; border-top: 1px solid #fff;">
+      <!-- White line at the top -->
+      <p>&copy; 2024 Valla News</p>
+      <p>Valla news är en hemsida skapad av elever för elever</p>
+    </div>
+  </footer>
+</body>
+
+</html>
